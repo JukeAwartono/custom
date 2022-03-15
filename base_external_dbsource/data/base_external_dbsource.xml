@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<odoo>
+    <record model="base.external.dbsource" id="hartex_live_db">
+        <field name="name">PostgreSQL local</field>
+        <field name="conn_string">dbname='Hartex_Live' user='odoo11' host='localhost' port='5432' password=%s</field>
+        <field name="password">jjjkkk4</field>
+        <field name="connector">postgresql</field>
+    </record>
+</odoo>
